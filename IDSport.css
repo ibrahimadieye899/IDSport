@@ -1,0 +1,240 @@
+nav{
+
+    text-align: center;
+    padding: 10px 15px;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid salmon;
+    display: inline-block;
+    margin-left: 50px;
+    box-shadow: 0px 0px 15px gray;
+    margin-left: 100px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-decoration: none;
+ 
+
+}
+
+.equip{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 30px white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 30px whitesmoke;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: underline;
+    background-color: lime;
+}
+h1:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 10px gray;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    
+}
+
+
+
+footer{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-transform: lowercase;
+   
+    padding: 10px 15px;
+    display: inline-block;
+    margin-left: 400px;
+    
+
+}
+
+.accueil{
+    background-color: aqua;
+    padding:10px 15px ;
+
+}
+
+.accueil:hover{
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    box-shadow: 0px 0px  gray;
+}
+.maillot{
+    background-color: wheat;
+    padding: 10px 15px;
+}
+.maillot:hover{
+    background-color: grey;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    box-shadow: 0px 0px  gray;
+}
+.short{
+    background-color: coral;
+    padding: 10px 15px;
+}
+
+.short:hover{
+    background-color: gold;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    box-shadow: 0px 0px  gray;
+}
+.pantelon{
+    background-color: deeppink;
+    padding: 10px 15px;
+}
+.pantelon:hover{
+    background-color:darksalmon;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    box-shadow: 0px 0px  gray;
+}
+
+.sweat{
+    background-color: orangered;
+    padding: 10px 15px;
+
+}
+
+.sweat:hover{
+    background-color: ghostwhite;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    box-shadow: 0px 0px  gray;
+}
+.chaussure{
+    background-color:chartreuse;
+    padding: 10px 15px;
+
+
+}
+
+.chaussure:hover{
+    background-color: rosybrown;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    box-shadow: 0px 0px  gray;
+}
+.chaussette{
+    background-color:darkorange;
+    padding: 10px 15px;
+
+
+}
+
+.chaussette:hover{
+    background-color: aquamarine;
+    padding-bottom: 10px;
+    border-top: 5px solid red;
+    box-shadow: 0px 0px gray;
+}
+
+section{
+    width: 100%; 
+    min-height: 300px;
+    margin-bottom: 10px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    margin-top: 10px;
+}
+
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+.mailo::after, .cleft::after, .cright::after{
+    clear: both;
+    display: table;
+    content: "";
+    
+}
+
+.mailo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 15px;
+ 
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 5px gray;
+    text-decoration: underline;
+    display: inline-block;
+    border-top: 5px solid red;
+ 
+
+}
+.a:hover{
+    background-color: deeppink;
+    border-top: 5px solid black;
+    box-shadow: 0px 0px 5px gray;
+    
+}
+
+img:hover{
+    box-shadow: 0px 0px 5px gray;
+}
+
+
+.ach{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-decoration: underline;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    
+}
+
+
